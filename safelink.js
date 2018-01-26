@@ -124,7 +124,7 @@ function auto_safeconvert() {<br />
         j = 0;<br />
         while (a_to_vh == false && j < a_to_vg) {<br />
             a_to_vi = a_to_ve[i].href;<br />
-            if (a_to_vi.match(a_to_vf[j]) || !a_to_vi || !a_to_vi.match("https")) {<br />
+            if (a_to_vi.match(a_to_vf[j]) || !a_to_vi || !a_to_vi.match("http")) {<br />
                 a_to_vh = true;<br />
             }<br />
             j++;<br />
